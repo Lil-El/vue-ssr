@@ -16,6 +16,9 @@ export default {
     Bar,
     Foo
   },
+  metaInfo: {
+    title: "Default Title"
+  },
   mounted() {
     //ssr 不会触发mounted
     this.$store.dispatch("changeName");

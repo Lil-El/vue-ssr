@@ -19,6 +19,7 @@ export default function(context) {
       ).then(
         () => {
           context.state = store.state; //保存到window.__initState__上
+          context.meta = app.$meta();
           resolve(app);
         },
         (err) => {

@@ -9,6 +9,9 @@ export default {
   data() {
     return {};
   },
+  metaInfo: {
+    title: "Foo"
+  },
   methods: {
     show() {
       console.log("show");
